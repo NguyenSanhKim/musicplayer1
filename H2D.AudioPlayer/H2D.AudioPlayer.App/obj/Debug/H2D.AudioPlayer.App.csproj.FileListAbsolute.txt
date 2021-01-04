@@ -1,0 +1,45 @@
+C:\Users\Hoang Duc Hung\source\repos\H2D.AudioPlayer\H2D.AudioPlayer.App\bin\Debug\H2D.AudioPlayer.App.exe.config
+C:\Users\Hoang Duc Hung\source\repos\H2D.AudioPlayer\H2D.AudioPlayer.App\bin\Debug\H2D.AudioPlayer.App.exe
+C:\Users\Hoang Duc Hung\source\repos\H2D.AudioPlayer\H2D.AudioPlayer.App\bin\Debug\H2D.AudioPlayer.App.pdb
+C:\Users\Hoang Duc Hung\source\repos\H2D.AudioPlayer\H2D.AudioPlayer.App\bin\Debug\Interop.WMPLib.dll
+C:\Users\Hoang Duc Hung\source\repos\H2D.AudioPlayer\H2D.AudioPlayer.App\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\Hoang Duc Hung\source\repos\H2D.AudioPlayer\H2D.AudioPlayer.App\obj\Debug\Interop.WMPLib.dll
+C:\Users\Hoang Duc Hung\source\repos\H2D.AudioPlayer\H2D.AudioPlayer.App\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\Hoang Duc Hung\source\repos\H2D.AudioPlayer\H2D.AudioPlayer.App\obj\Debug\H2D.AudioPlayer.App.csproj.ResolveComReference.cache
+C:\Users\Hoang Duc Hung\source\repos\H2D.AudioPlayer\H2D.AudioPlayer.App\obj\Debug\H2D.AudioPlayer.App.Main.resources
+C:\Users\Hoang Duc Hung\source\repos\H2D.AudioPlayer\H2D.AudioPlayer.App\obj\Debug\H2D.AudioPlayer.App.Properties.Resources.resources
+C:\Users\Hoang Duc Hung\source\repos\H2D.AudioPlayer\H2D.AudioPlayer.App\obj\Debug\H2D.AudioPlayer.App.csproj.GenerateResource.cache
+C:\Users\Hoang Duc Hung\source\repos\H2D.AudioPlayer\H2D.AudioPlayer.App\obj\Debug\H2D.AudioPlayer.App.csproj.CoreCompileInputs.cache
+C:\Users\Hoang Duc Hung\source\repos\H2D.AudioPlayer\H2D.AudioPlayer.App\obj\Debug\H2D.AudioPlayer.App.exe
+C:\Users\Hoang Duc Hung\source\repos\H2D.AudioPlayer\H2D.AudioPlayer.App\obj\Debug\H2D.AudioPlayer.App.pdb
+C:\Users\Hoang Duc Hung\source\repos\H2D.AudioPlayer\H2D.AudioPlayer.App\obj\Debug\H2D.AudioPlayer.App.csprojAssemblyReference.cache
+D:\H2D.AudioPlayer\H2D.AudioPlayer.App\bin\Debug\H2D.AudioPlayer.App.exe.config
+D:\H2D.AudioPlayer\H2D.AudioPlayer.App\bin\Debug\H2D.AudioPlayer.App.exe
+D:\H2D.AudioPlayer\H2D.AudioPlayer.App\bin\Debug\H2D.AudioPlayer.App.pdb
+D:\H2D.AudioPlayer\H2D.AudioPlayer.App\bin\Debug\Interop.WMPLib.dll
+D:\H2D.AudioPlayer\H2D.AudioPlayer.App\bin\Debug\AxInterop.WMPLib.dll
+D:\H2D.AudioPlayer\H2D.AudioPlayer.App\obj\Debug\H2D.AudioPlayer.App.csprojAssemblyReference.cache
+D:\H2D.AudioPlayer\H2D.AudioPlayer.App\obj\Debug\Interop.WMPLib.dll
+D:\H2D.AudioPlayer\H2D.AudioPlayer.App\obj\Debug\AxInterop.WMPLib.dll
+D:\H2D.AudioPlayer\H2D.AudioPlayer.App\obj\Debug\H2D.AudioPlayer.App.csproj.ResolveComReference.cache
+D:\H2D.AudioPlayer\H2D.AudioPlayer.App\obj\Debug\H2D.AudioPlayer.App.Main.resources
+D:\H2D.AudioPlayer\H2D.AudioPlayer.App\obj\Debug\H2D.AudioPlayer.App.Properties.Resources.resources
+D:\H2D.AudioPlayer\H2D.AudioPlayer.App\obj\Debug\H2D.AudioPlayer.App.csproj.GenerateResource.cache
+D:\H2D.AudioPlayer\H2D.AudioPlayer.App\obj\Debug\H2D.AudioPlayer.App.csproj.CoreCompileInputs.cache
+D:\H2D.AudioPlayer\H2D.AudioPlayer.App\obj\Debug\H2D.AudioPlayer.App.exe
+D:\H2D.AudioPlayer\H2D.AudioPlayer.App\obj\Debug\H2D.AudioPlayer.App.pdb
+C:\Users\kim62\Desktop\H2D.AudioPlayer\H2D.AudioPlayer.App\bin\Debug\H2D.AudioPlayer.App.exe.config
+C:\Users\kim62\Desktop\H2D.AudioPlayer\H2D.AudioPlayer.App\bin\Debug\H2D.AudioPlayer.App.exe
+C:\Users\kim62\Desktop\H2D.AudioPlayer\H2D.AudioPlayer.App\bin\Debug\H2D.AudioPlayer.App.pdb
+C:\Users\kim62\Desktop\H2D.AudioPlayer\H2D.AudioPlayer.App\bin\Debug\Interop.WMPLib.dll
+C:\Users\kim62\Desktop\H2D.AudioPlayer\H2D.AudioPlayer.App\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\kim62\Desktop\H2D.AudioPlayer\H2D.AudioPlayer.App\obj\Debug\H2D.AudioPlayer.App.csprojAssemblyReference.cache
+C:\Users\kim62\Desktop\H2D.AudioPlayer\H2D.AudioPlayer.App\obj\Debug\Interop.WMPLib.dll
+C:\Users\kim62\Desktop\H2D.AudioPlayer\H2D.AudioPlayer.App\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\kim62\Desktop\H2D.AudioPlayer\H2D.AudioPlayer.App\obj\Debug\H2D.AudioPlayer.App.csproj.ResolveComReference.cache
+C:\Users\kim62\Desktop\H2D.AudioPlayer\H2D.AudioPlayer.App\obj\Debug\H2D.AudioPlayer.App.Main.resources
+C:\Users\kim62\Desktop\H2D.AudioPlayer\H2D.AudioPlayer.App\obj\Debug\H2D.AudioPlayer.App.Properties.Resources.resources
+C:\Users\kim62\Desktop\H2D.AudioPlayer\H2D.AudioPlayer.App\obj\Debug\H2D.AudioPlayer.App.csproj.GenerateResource.cache
+C:\Users\kim62\Desktop\H2D.AudioPlayer\H2D.AudioPlayer.App\obj\Debug\H2D.AudioPlayer.App.csproj.CoreCompileInputs.cache
+C:\Users\kim62\Desktop\H2D.AudioPlayer\H2D.AudioPlayer.App\obj\Debug\H2D.AudioPlayer.App.exe
+C:\Users\kim62\Desktop\H2D.AudioPlayer\H2D.AudioPlayer.App\obj\Debug\H2D.AudioPlayer.App.pdb
