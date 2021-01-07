@@ -544,6 +544,23 @@ namespace H2D.AudioPlayer.App
             
         }
 
-        
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            try
+            {
+                album1.Visible = true;
+                axWindowsMediaPlayer.Visible = false;
+                pnInfo.Visible = false;
+            }
+            catch(Exception ex)
+            {
+                ex.ShowException();
+            }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            axWindowsMediaPlayer.Visible = true;
+        }
     }
 }
