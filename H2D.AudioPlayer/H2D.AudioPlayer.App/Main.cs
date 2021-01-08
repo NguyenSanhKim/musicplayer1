@@ -560,7 +560,7 @@ namespace H2D.AudioPlayer.App
 
         private void button2_Click(object sender, EventArgs e)
         {
-            axWindowsMediaPlayer.Visible = true;
+            axWindowsMediaPlayer.BringToFront();
         }
     }
 }
