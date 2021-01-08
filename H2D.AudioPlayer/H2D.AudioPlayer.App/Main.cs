@@ -79,7 +79,7 @@ namespace H2D.AudioPlayer.App
                 timerPanRight.Enabled = true;
                 timerPanRight.Start();
                 picPlaylist.Image = pnPlayList.Width == 300 ? Resources.playlist_off : Resources.playlist_on;
-                //pnInfo.Visible = !ShowList;
+                
                 LoadPlayList();
             }
             catch (Exception ex)
@@ -444,6 +444,7 @@ namespace H2D.AudioPlayer.App
                     {
                         var lstFile = Directory.GetFiles(dic.SelectedPath, "*.mp3").ToList();
                         lstFile.AddRange(Directory.GetFiles(dic.SelectedPath, "*.wav"));
+                        lstFile.AddRange(Directory.GetFiles(dic.SelectedPath, "*.mp4"));
                         axWindowsMediaPlayer.currentPlaylist = axWindowsMediaPlayer.newPlaylist("", "");
                         foreach (var item in lstFile)
                         {
@@ -535,6 +536,7 @@ namespace H2D.AudioPlayer.App
                     pnTime.BackColor = Color.FromArgb(36, 33, 55);
                     pnVol.BackColor = Color.DarkGray;
                     pnInfo.BackColor = Color.FromArgb(23, 21, 32);
+                    pnPlayList.BackColor = Color.FromArgb(35, 32, 39);
 
                 }
                 catch (Exception ex)
@@ -561,6 +563,7 @@ namespace H2D.AudioPlayer.App
         private void button2_Click(object sender, EventArgs e)
         {
             axWindowsMediaPlayer.BringToFront();
+            axWindowsMediaPlayer.Visible = true;
         }
     }
 }

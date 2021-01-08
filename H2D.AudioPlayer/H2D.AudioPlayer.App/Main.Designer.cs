@@ -65,16 +65,17 @@
             this.picPlay = new System.Windows.Forms.PictureBox();
             this.pnCenter = new System.Windows.Forms.Panel();
             this.pnInfo = new System.Windows.Forms.Panel();
-            this.lbSongName = new System.Windows.Forms.Label();
             this.axWindowsMediaPlayer = new AxWMPLib.AxWindowsMediaPlayer();
+            this.album1 = new H2D.AudioPlayer.App.Album();
             this.pnPlayList = new System.Windows.Forms.Panel();
             this.timerPlay = new System.Windows.Forms.Timer(this.components);
             this.timerPanRight = new System.Windows.Forms.Timer(this.components);
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.album1 = new H2D.AudioPlayer.App.Album();
             this.colorDialog1 = new System.Windows.Forms.ColorDialog();
+            this.lbSongName = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             label1 = new System.Windows.Forms.Label();
             label4 = new System.Windows.Forms.Label();
             this.pnMenu.SuspendLayout();
@@ -98,6 +99,7 @@
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -162,7 +164,7 @@
             this.button2.ForeColor = System.Drawing.Color.Red;
             this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
             this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.Location = new System.Drawing.Point(0, 438);
+            this.button2.Location = new System.Drawing.Point(0, 476);
             this.button2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button2.Name = "button2";
             this.button2.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
@@ -183,7 +185,7 @@
             this.button1.ForeColor = System.Drawing.Color.Red;
             this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
             this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(0, 393);
+            this.button1.Location = new System.Drawing.Point(0, 431);
             this.button1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button1.Name = "button1";
             this.button1.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
@@ -200,7 +202,7 @@
             this.pnsetting.Controls.Add(this.btnLighttheme);
             this.pnsetting.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnsetting.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.pnsetting.Location = new System.Drawing.Point(0, 309);
+            this.pnsetting.Location = new System.Drawing.Point(0, 347);
             this.pnsetting.Name = "pnsetting";
             this.pnsetting.Size = new System.Drawing.Size(246, 84);
             this.pnsetting.TabIndex = 9;
@@ -254,7 +256,7 @@
             this.btnsetting.ForeColor = System.Drawing.Color.Red;
             this.btnsetting.Image = ((System.Drawing.Image)(resources.GetObject("btnsetting.Image")));
             this.btnsetting.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnsetting.Location = new System.Drawing.Point(0, 264);
+            this.btnsetting.Location = new System.Drawing.Point(0, 302);
             this.btnsetting.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnsetting.Name = "btnsetting";
             this.btnsetting.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
@@ -296,7 +298,7 @@
             this.btnPlaylist.ForeColor = System.Drawing.Color.Red;
             this.btnPlaylist.Image = ((System.Drawing.Image)(resources.GetObject("btnPlaylist.Image")));
             this.btnPlaylist.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnPlaylist.Location = new System.Drawing.Point(0, 219);
+            this.btnPlaylist.Location = new System.Drawing.Point(0, 257);
             this.btnPlaylist.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnPlaylist.Name = "btnPlaylist";
             this.btnPlaylist.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
@@ -312,7 +314,7 @@
             this.pnSubMedia.Controls.Add(this.btnOpenFolder);
             this.pnSubMedia.Controls.Add(this.btnOpenFile);
             this.pnSubMedia.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pnSubMedia.Location = new System.Drawing.Point(0, 135);
+            this.pnSubMedia.Location = new System.Drawing.Point(0, 173);
             this.pnSubMedia.Name = "pnSubMedia";
             this.pnSubMedia.Size = new System.Drawing.Size(246, 84);
             this.pnSubMedia.TabIndex = 2;
@@ -366,7 +368,7 @@
             this.btnMedia.ForeColor = System.Drawing.Color.Red;
             this.btnMedia.Image = ((System.Drawing.Image)(resources.GetObject("btnMedia.Image")));
             this.btnMedia.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnMedia.Location = new System.Drawing.Point(0, 90);
+            this.btnMedia.Location = new System.Drawing.Point(0, 128);
             this.btnMedia.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnMedia.Name = "btnMedia";
             this.btnMedia.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
@@ -385,7 +387,7 @@
             this.pnLogo.Location = new System.Drawing.Point(0, 0);
             this.pnLogo.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pnLogo.Name = "pnLogo";
-            this.pnLogo.Size = new System.Drawing.Size(246, 90);
+            this.pnLogo.Size = new System.Drawing.Size(246, 128);
             this.pnLogo.TabIndex = 0;
             // 
             // pnControl
@@ -609,24 +611,13 @@
             // pnInfo
             // 
             this.pnInfo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(21)))), ((int)(((byte)(32)))));
+            this.pnInfo.Controls.Add(this.pictureBox2);
             this.pnInfo.Controls.Add(this.lbSongName);
             this.pnInfo.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnInfo.Location = new System.Drawing.Point(0, 0);
             this.pnInfo.Name = "pnInfo";
-            this.pnInfo.Size = new System.Drawing.Size(465, 45);
+            this.pnInfo.Size = new System.Drawing.Size(465, 128);
             this.pnInfo.TabIndex = 1;
-            // 
-            // lbSongName
-            // 
-            this.lbSongName.Dock = System.Windows.Forms.DockStyle.Top;
-            this.lbSongName.Font = new System.Drawing.Font("Tahoma", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbSongName.ForeColor = System.Drawing.Color.White;
-            this.lbSongName.Location = new System.Drawing.Point(0, 0);
-            this.lbSongName.Name = "lbSongName";
-            this.lbSongName.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.lbSongName.Size = new System.Drawing.Size(465, 45);
-            this.lbSongName.TabIndex = 0;
-            this.lbSongName.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // axWindowsMediaPlayer
             // 
@@ -634,12 +625,21 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.axWindowsMediaPlayer.Enabled = true;
-            this.axWindowsMediaPlayer.Location = new System.Drawing.Point(0, 3);
+            this.axWindowsMediaPlayer.Location = new System.Drawing.Point(3, 128);
             this.axWindowsMediaPlayer.Name = "axWindowsMediaPlayer";
             this.axWindowsMediaPlayer.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axWindowsMediaPlayer.OcxState")));
-            this.axWindowsMediaPlayer.Size = new System.Drawing.Size(465, 651);
+            this.axWindowsMediaPlayer.Size = new System.Drawing.Size(462, 530);
             this.axWindowsMediaPlayer.TabIndex = 0;
             this.axWindowsMediaPlayer.PlayStateChange += new AxWMPLib._WMPOCXEvents_PlayStateChangeEventHandler(this.axWindowsMediaPlayer_PlayStateChange);
+            // 
+            // album1
+            // 
+            this.album1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.album1.Location = new System.Drawing.Point(0, 0);
+            this.album1.Margin = new System.Windows.Forms.Padding(4);
+            this.album1.Name = "album1";
+            this.album1.Size = new System.Drawing.Size(465, 590);
+            this.album1.TabIndex = 2;
             // 
             // pnPlayList
             // 
@@ -691,14 +691,28 @@
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
-            // album1
+            // lbSongName
             // 
-            this.album1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.album1.Location = new System.Drawing.Point(0, 0);
-            this.album1.Margin = new System.Windows.Forms.Padding(4);
-            this.album1.Name = "album1";
-            this.album1.Size = new System.Drawing.Size(465, 590);
-            this.album1.TabIndex = 2;
+            this.lbSongName.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lbSongName.Font = new System.Drawing.Font("Tahoma", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbSongName.ForeColor = System.Drawing.Color.White;
+            this.lbSongName.Location = new System.Drawing.Point(0, 0);
+            this.lbSongName.Name = "lbSongName";
+            this.lbSongName.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.lbSongName.Size = new System.Drawing.Size(465, 128);
+            this.lbSongName.TabIndex = 0;
+            this.lbSongName.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(465, 128);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 1;
+            this.pictureBox2.TabStop = false;
             // 
             // Main
             // 
@@ -740,6 +754,7 @@
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -774,7 +789,6 @@
         private System.Windows.Forms.Panel pnTimeCurrent;
         private System.Windows.Forms.Timer timerPanRight;
         private System.Windows.Forms.Panel pnInfo;
-        private System.Windows.Forms.Label lbSongName;
         private System.Windows.Forms.Panel pnVolCurrent;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
@@ -789,5 +803,7 @@
         private Album album1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.ColorDialog colorDialog1;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Label lbSongName;
     }
 }
