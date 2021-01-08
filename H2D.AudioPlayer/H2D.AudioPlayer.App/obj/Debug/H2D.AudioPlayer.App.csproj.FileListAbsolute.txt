@@ -74,3 +74,19 @@ C:\Users\Duy Khoa\Desktop\musicplayer1\H2D.AudioPlayer\H2D.AudioPlayer.App\obj\D
 C:\Users\Duy Khoa\Desktop\musicplayer1\H2D.AudioPlayer\H2D.AudioPlayer.App\obj\Debug\H2D.AudioPlayer.App.Main.resources
 C:\Users\Duy Khoa\Desktop\musicplayer1\H2D.AudioPlayer\H2D.AudioPlayer.App\obj\Debug\H2D.AudioPlayer.App.Properties.Resources.resources
 C:\Users\Duy Khoa\Desktop\musicplayer1\H2D.AudioPlayer\H2D.AudioPlayer.App\obj\Debug\H2D.AudioPlayer.App.csproj.GenerateResource.Cache
+F:\study\HK1-2020-2021\winform\project\musicplayer1\H2D.AudioPlayer\H2D.AudioPlayer.App\bin\Debug\H2D.AudioPlayer.App.exe.config
+F:\study\HK1-2020-2021\winform\project\musicplayer1\H2D.AudioPlayer\H2D.AudioPlayer.App\bin\Debug\H2D.AudioPlayer.App.exe
+F:\study\HK1-2020-2021\winform\project\musicplayer1\H2D.AudioPlayer\H2D.AudioPlayer.App\bin\Debug\H2D.AudioPlayer.App.pdb
+F:\study\HK1-2020-2021\winform\project\musicplayer1\H2D.AudioPlayer\H2D.AudioPlayer.App\bin\Debug\Interop.WMPLib.dll
+F:\study\HK1-2020-2021\winform\project\musicplayer1\H2D.AudioPlayer\H2D.AudioPlayer.App\bin\Debug\AxInterop.WMPLib.dll
+F:\study\HK1-2020-2021\winform\project\musicplayer1\H2D.AudioPlayer\H2D.AudioPlayer.App\obj\Debug\H2D.AudioPlayer.App.csprojAssemblyReference.cache
+F:\study\HK1-2020-2021\winform\project\musicplayer1\H2D.AudioPlayer\H2D.AudioPlayer.App\obj\Debug\Interop.WMPLib.dll
+F:\study\HK1-2020-2021\winform\project\musicplayer1\H2D.AudioPlayer\H2D.AudioPlayer.App\obj\Debug\AxInterop.WMPLib.dll
+F:\study\HK1-2020-2021\winform\project\musicplayer1\H2D.AudioPlayer\H2D.AudioPlayer.App\obj\Debug\H2D.AudioPlayer.App.csproj.ResolveComReference.cache
+F:\study\HK1-2020-2021\winform\project\musicplayer1\H2D.AudioPlayer\H2D.AudioPlayer.App\obj\Debug\H2D.AudioPlayer.App.Album.resources
+F:\study\HK1-2020-2021\winform\project\musicplayer1\H2D.AudioPlayer\H2D.AudioPlayer.App\obj\Debug\H2D.AudioPlayer.App.Main.resources
+F:\study\HK1-2020-2021\winform\project\musicplayer1\H2D.AudioPlayer\H2D.AudioPlayer.App\obj\Debug\H2D.AudioPlayer.App.Properties.Resources.resources
+F:\study\HK1-2020-2021\winform\project\musicplayer1\H2D.AudioPlayer\H2D.AudioPlayer.App\obj\Debug\H2D.AudioPlayer.App.csproj.GenerateResource.cache
+F:\study\HK1-2020-2021\winform\project\musicplayer1\H2D.AudioPlayer\H2D.AudioPlayer.App\obj\Debug\H2D.AudioPlayer.App.csproj.CoreCompileInputs.cache
+F:\study\HK1-2020-2021\winform\project\musicplayer1\H2D.AudioPlayer\H2D.AudioPlayer.App\obj\Debug\H2D.AudioPlayer.App.exe
+F:\study\HK1-2020-2021\winform\project\musicplayer1\H2D.AudioPlayer\H2D.AudioPlayer.App\obj\Debug\H2D.AudioPlayer.App.pdb

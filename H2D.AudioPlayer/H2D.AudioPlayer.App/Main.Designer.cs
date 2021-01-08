@@ -67,13 +67,14 @@
             this.pnInfo = new System.Windows.Forms.Panel();
             this.lbSongName = new System.Windows.Forms.Label();
             this.axWindowsMediaPlayer = new AxWMPLib.AxWindowsMediaPlayer();
-            this.album1 = new H2D.AudioPlayer.App.Album();
             this.pnPlayList = new System.Windows.Forms.Panel();
             this.timerPlay = new System.Windows.Forms.Timer(this.components);
             this.timerPanRight = new System.Windows.Forms.Timer(this.components);
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.album1 = new H2D.AudioPlayer.App.Album();
+            this.colorDialog1 = new System.Windows.Forms.ColorDialog();
             label1 = new System.Windows.Forms.Label();
             label4 = new System.Windows.Forms.Label();
             this.pnMenu.SuspendLayout();
@@ -456,7 +457,7 @@
             this.lbVol.ForeColor = System.Drawing.Color.LightGray;
             this.lbVol.Location = new System.Drawing.Point(1003, 35);
             this.lbVol.Name = "lbVol";
-            this.lbVol.Size = new System.Drawing.Size(32, 21);
+            this.lbVol.Size = new System.Drawing.Size(28, 19);
             this.lbVol.TabIndex = 23;
             this.lbVol.Text = "0%";
             // 
@@ -466,7 +467,7 @@
             this.lbTimeCurrent.ForeColor = System.Drawing.Color.LightGray;
             this.lbTimeCurrent.Location = new System.Drawing.Point(301, 3);
             this.lbTimeCurrent.Name = "lbTimeCurrent";
-            this.lbTimeCurrent.Size = new System.Drawing.Size(51, 21);
+            this.lbTimeCurrent.Size = new System.Drawing.Size(45, 19);
             this.lbTimeCurrent.TabIndex = 22;
             this.lbTimeCurrent.Text = "00:00";
             // 
@@ -477,7 +478,7 @@
             this.lbLastTime.ForeColor = System.Drawing.Color.LightGray;
             this.lbLastTime.Location = new System.Drawing.Point(986, 3);
             this.lbLastTime.Name = "lbLastTime";
-            this.lbLastTime.Size = new System.Drawing.Size(51, 21);
+            this.lbLastTime.Size = new System.Drawing.Size(45, 19);
             this.lbLastTime.TabIndex = 20;
             this.lbLastTime.Text = "00:00";
             // 
@@ -640,15 +641,6 @@
             this.axWindowsMediaPlayer.TabIndex = 0;
             this.axWindowsMediaPlayer.PlayStateChange += new AxWMPLib._WMPOCXEvents_PlayStateChangeEventHandler(this.axWindowsMediaPlayer_PlayStateChange);
             // 
-            // album1
-            // 
-            this.album1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.album1.Location = new System.Drawing.Point(0, 0);
-            this.album1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.album1.Name = "album1";
-            this.album1.Size = new System.Drawing.Size(465, 590);
-            this.album1.TabIndex = 2;
-            // 
             // pnPlayList
             // 
             this.pnPlayList.AutoScroll = true;
@@ -699,9 +691,18 @@
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
+            // album1
+            // 
+            this.album1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.album1.Location = new System.Drawing.Point(0, 0);
+            this.album1.Margin = new System.Windows.Forms.Padding(4);
+            this.album1.Name = "album1";
+            this.album1.Size = new System.Drawing.Size(465, 590);
+            this.album1.TabIndex = 2;
+            // 
             // Main
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 21F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1060, 661);
             this.Controls.Add(this.pnCenter);
@@ -787,5 +788,6 @@
         private System.Windows.Forms.Button button1;
         private Album album1;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.ColorDialog colorDialog1;
     }
 }
